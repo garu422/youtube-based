@@ -1,3 +1,12 @@
+> **youtube-based — 유튜브 관련 도구 모음**
+>
+> | 도구 | 하는 일 | 위치 | 원본 (MIT) |
+> |---|---|---|---|
+> | watch | 유튜브 주소나 영상 파일에서 장면 사진과 자막을 뽑아 Claude가 영상을 분석 | 저장소 루트 (`skills/watch`) | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) |
+> | youtube-shorts-factory | 잘 되는 쇼츠를 분석해 바이럴 공식을 뽑고, 30% 이상 바꾼 새 쇼츠 기획·스토리보드를 만드는 작업 순서 | `plugins/youtube-shorts-factory` | [ninestonelee/youtube-shorts-factory](https://github.com/ninestonelee/youtube-shorts-factory) |
+>
+> Claude 앱 **Customize → Plugins → Add marketplace**에 이 저장소 주소를 넣으면 두 도구를 각각 설치할 수 있습니다. 아래는 watch 원본 설명입니다.
+
 # /watch
 
 Give an agent video evidence: a URL or local file becomes timestamped frames and a transcript. Install it in Claude Code (the desktop app, VS Code, or a terminal), or use it with Codex and other [Agent Skills](https://agentskills.io) hosts. Native captions come first; optional local WhisperX or Groq/OpenAI transcription handles videos without captions.

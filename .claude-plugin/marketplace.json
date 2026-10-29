@@ -16,6 +16,16 @@
       "source": "./",
       "category": "productivity",
       "homepage": "https://github.com/bradautomates/claude-video"
+    },
+    {
+      "name": "youtube-shorts-factory",
+      "description": "유튜브 레퍼런스 쇼츠 분석 → 30%+ 각색 → 스토리보드 → AI 쇼츠 제작 워크플로우.",
+      "author": {
+        "name": "ninestonelee"
+      },
+      "source": "./plugins/youtube-shorts-factory",
+      "category": "productivity",
+      "homepage": "https://github.com/ninestonelee/youtube-shorts-factory"
     }
   ]
 }
